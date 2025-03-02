@@ -1,0 +1,97 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #c97e44;
+  color: #e61919;
+  background-image: url('https://files.oaiusercontent.com/file-59DEus9m37posnk2Ezv6dT?se=2025-02-28T05%3A54%3A11Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D4c345d11-9b98-41d8-92b0-733dc6dca5b4.webp&sig=L1NKLLjB8Bo8pzkLd3Xsejm6svERCwX5z5gHMHejtFM%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Main Container */
+div {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header */
+h1 {
+  font-size: 3rem;
+  color: #f40808;
+  margin-bottom: 100px;
+}
+
+/* Search Bar */
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #150101;
+  box-shadow: 0 2px 4px rgba(154, 10, 10, 0.1);
+}
+
+/* Filter Section */
+.filters {
+  margin-top: 20px;
+}
+
+.filters select {
+  padding: 8px;
+  font-size: 1rem;
+  margin-right: 15px;
+  border-radius: 4px;
+  border: 1px solid #131212;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Movie List */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  text-align: center;
+}
+
+li img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+li h3 {
+  font-size: 1.2rem;
+  color: #b10c0c;
+  margin: 10px 0;
+}
+
+li p {
+  font-size: 1rem;
+  color: #11dc0e;
+}
+
+li button {
+  padding: 8px 15px;
+  margin-top: 10px;
+  background-color: #ff4757;
+  color: rgb(212, 28, 28);
+  border: none;
+}
